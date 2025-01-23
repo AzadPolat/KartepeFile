@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARTEPE  FİLE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 >KARTEPE FİLE</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#anasayfa" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a></li>
+                <li><a href="#urunler" data-tr="Ürünlerimiz" data-en="Our Products">Ürünlerimiz</a></li>
+                <li><a href="#hakkimizda" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</a></li>
+                <li><a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="tr">TR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="theme-toggle">
+                        <input type="checkbox" id="theme-toggle" />
+                        <div class="slider round">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="anasayfa" class="hero">
+        <div class="slider">
+            <div class="slide active">
+                <div class="slide-bg" style="background-image: url('/image/gölge.jpeg');"></div>
+                <div class="hero-content">
+                    <h1 data-tr="Kaliteli Tarımsal File Çözümleri" data-en="Quality Agricultural Net Solutions">Kaliteli Tarımsal File Çözümleri</h1>
+                    <p data-tr="Profesyonel tarım çözümleri için doğru adres" data-en="The right address for professional agricultural solutions">Profesyonel tarım çözümleri için doğru adres</p>
+                    <a href="#urunler" class="cta-button" data-tr="Ürünlerimizi İnceleyin" data-en="View Our Products">Ürünlerimizi İnceleyin</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('/image/sera.jpeg');"></div>
+                <div class="hero-content">
+                    <h1 data-tr="Modern Sera Çözümleri" data-en="Modern Greenhouse Solutions">Modern Sera Çözümleri</h1>
+                    <p data-tr="Yenilikçi ve dayanıklı sera örtüleri" data-en="Innovative and durable greenhouse covers">Yenilikçi ve dayanıklı sera örtüleri</p>
+                    <a href="#urunler" class="cta-button" data-tr="Detaylı Bilgi" data-en="Learn More">Detaylı Bilgi</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('/image/fındıktoplama.jpeg');"></div>
+                <div class="hero-content">
+                    <h1 data-tr="Fındık Toplama Fileleri" data-en="Hazelnut Collection Nets">Fındık Toplama Fileleri</h1>
+                    <p data-tr="Verimli hasat için özel çözümler" data-en="Special solutions for efficient harvest">Verimli hasat için özel çözümler</p>
+                    <a href="#urunler" class="cta-button" data-tr="Hemen İnceleyin" data-en="Explore Now">Hemen İnceleyin</a>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev" aria-label="Önceki"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next" aria-label="Sonraki"><i class="fas fa-chevron-right"></i></button>
+        <div class="slider-dots"></div>
+    </section>
+
+    <section id="urunler" class="products">
+        <h2 data-tr="Ürünlerimiz" data-en="Our Products">Ürünlerimiz</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="/image/fındıktoplama.jpeg" alt="Gölgeleme Filesi">
+                <h3 data-tr="Fındık Toplama Filesi" data-en="Shade Net">Fındık Toplama Filesi</h3>
+                <p data-tr="%40-%95 arası gölgeleme oranları ile her ihtiyaca uygun çözümler" data-en="Solutions suitable for every need with shading rates between 30%-90%">%40-%95 arası gölgeleme oranları ile her ihtiyaca uygun çözümler</p>
+            </div>
+            <div class="product-card">
+                <img src="/image/sera.jpeg" alt="Sera Örtüsü">
+                <h3 data-tr="Sera Örtüsü" data-en="Greenhouse Cover">Sera Örtüsü</h3>
+                <p data-tr="UV korumalı, uzun ömürlü sera örtüleri" data-en="UV protected, long-lasting greenhouse covers">UV korumalı, uzun ömürlü sera örtüleri</p>
+            </div>
+            <div class="product-card">
+                <img src="/image/böcek.avif" alt="Anti-Böcek Filesi">
+                <h3 data-tr="Anti-Böcek Filesi" data-en="Anti-Insect Net">Anti-Böcek Filesi</h3>
+                <p data-tr="Zararlılara karşı etkili koruma sağlayan fileler" data-en="Nets providing effective protection against pests">Zararlılara karşı etkili koruma sağlayan fileler</p>
+            </div>
+            <div class="product-card">
+                <img src="/image/yerörtüsü.jpeg" alt="Yer Örtüsü">
+                <h3 data-tr="Yer Örtüsü" data-en="Ground Cover">Yer Örtüsü</h3>
+                <p data-tr="Yabani ot kontrolü ve nem koruması için özel üretim yer örtüleri" data-en="Special production ground covers for weed control and moisture protection">Yabani ot kontrolü ve nem koruması için özel üretim yer örtüleri</p>
+            </div>
+            <div class="product-card">
+                <img src="image/kusfilesi.jpg" alt="Kuş Filesi">
+                <h3 data-tr="Kuş Filesi" data-en="Bird Net">Kuş Filesi</h3>
+                <p data-tr="Meyve bahçeleri için dayanıklı kuş koruma fileleri" data-en="Durable bird protection nets for orchards">Meyve bahçeleri için dayanıklı kuş koruma fileleri</p>
+            </div>
+            <div class="product-card">
+                <img src="image/dolu koruma.png" alt="Dolu Koruma Filesi">
+                <h3 data-tr="Dolu Koruma Filesi" data-en="Hail Protection Net">Dolu Koruma Filesi</h3>
+                <p data-tr="Dolu ve aşırı hava koşullarına karşı koruyucu fileler" data-en="Protective nets against hail and extreme weather conditions">Dolu ve aşırı hava koşullarına karşı koruyucu fileler</p>
+            </div>
+            <div class="product-card">
+                <img src="image/gölgeleme.jpg" alt="3Gölgeleme">
+                <h3 data-tr="Gölgeleme Filesi" data-en="Wind Breaker Net">Gölgeleme</h3>
+                <p data-tr="Tarımsal ve dekoratif amaçlı kullanılan file çeşitleri" data-en="Durable protection nets preventing wind damage">Tarımsal ve dekoratif amaçlı kullanılan file çeşitleri</p>
+            </div>
+            <div class="product-card">
+                <img src="/image/cuval.jpeg" alt="PP ÇUVAL">
+                <h3 data-tr="PP ÇUVAL" data-en="Tunnel Greenhouse Cover">PP ÇUVAL</h3>
+                <p data-tr="Tarımsal ve sanayide kullanılan çuval çeşitleri " data-en="Durable covers specially designed for tunnel greenhouses">Tarımsal ve sanayide kullanılan çuval çeşitleri </p>
+            </div>
+            <div class="product-card">
+                <img src="image/malç.webp" alt="Malç Örtüsü">
+                <h3 data-tr="Malç Örtüsü" data-en="Mulch Cover">Malç Örtüsü</h3>
+                <p data-tr="Toprak ısısını koruyan ve yabani ot kontrolü sağlayan örtüler" data-en="Covers that maintain soil temperature and provide weed control">Toprak ısısını koruyan ve yabani ot kontrolü sağlayan örtüler</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda" class="about">
+        <h2 data-tr="Hakkımızda" data-en="About Us">Hakkımızda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-tr="2015 yılında hayata geçirilen firmamız kalite ve hizmet anlayışını gelişen teknoloji ve dünya pazarına ayak uydurma ilkesini benimsemiş ve çalışmalarına bu doğrultuda devam ederek konumunu üst sıralara taşımıştır.Bu doğrultuda Kartepe File “En Kaliteli Ürün, En Uygun Fiyat, En Profesyonel Hizmet” anlayışını benimseyerek sektördeki yerini güçlendirmiştir." 
+                   data-en="With over 20 years of experience, we are one of Turkey's leading agricultural net manufacturers. We continue to earn our customers' trust with our quality products and professional service approach.">
+                    2015 yılında hayata geçirilen firmamız kalite ve hizmet anlayışını gelişen teknoloji ve dünya pazarına ayak uydurma ilkesini benimsemiş ve çalışmalarına bu doğrultuda devam ederek konumunu üst sıralara taşımıştır.Bu doğrultuda Kartepe File “En Kaliteli Ürün, En Uygun Fiyat, En Profesyonel Hizmet” anlayışını benimseyerek sektördeki yerini güçlendirmiştir.
+                </p>
+            </div>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <h3 data-tr="Kaliteli Ürünler" data-en="Quality Products">Kaliteli Ürünler</h3>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3 data-tr="Hızlı Teslimat" data-en="Fast Delivery">Hızlı Teslimat</h3>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3 data-tr="Teknik Destek" data-en="Technical Support">Teknik Destek</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="contact">
+        <h2 data-tr="İletişim" data-en="Contact">İletişim</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 data-tr="Bize Ulaşın" data-en="Contact Us">Bize Ulaşın</h3>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-tr=" Kartepe Ataevler Mahallesi  Şen Sokak  No:53/B   Kocaeli/Türkiye " data-en="Kartepe Station District No:123">ATAEVLER MAHALLESİ ŞEN SOAKAK NO:53 TAKSİM B KOCAELİ /TÜRKİYE</span></p>
+                <p><i class="fas fa-phone"></i> +90 555 195 5901</p>
+                <p><i class="fas fa-envelope"></i> info@filesepeti.com</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" data-tr-placeholder="Adınız" data-en-placeholder="Your Name" placeholder="Adınız" required>
+                <input type="email" data-tr-placeholder="E-posta Adresiniz" data-en-placeholder="Your Email" placeholder="E-posta Adresiniz" required>
+                <textarea data-tr-placeholder="Mesajınız" data-en-placeholder="Your Message" placeholder="Mesajınız" required></textarea>
+                <button type="submit" data-tr="Gönder" data-en="Send">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="contact-buttons">
+        <a href="https://wa.me/905551955901" class="whatsapp-button" target="_blank" data-tr-title="Bizimle iletişime geçin" data-en-title="Contact us">
+            <i class="fab fa-whatsapp"></i>
+            <span class="contact-text" data-tr="Bize Ulaşın" data-en="Contact Us">Bize Ulaşın</span>
+        </a>
+        <a href="mailto:info@filesepeti.com" class="email-button" target="_blank" data-tr-title="Bize mail gönderin" data-en-title="Send us an email">
+            <i class="far fa-envelope"></i>
+            <span class="contact-text" data-tr="Mail Gönder" data-en="Send Email">Mail Gönder</span>
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-tr="Kartepe File" data-en="FileBasket">FileSepeti</h3>
+                <p data-tr="Kaliteli tarımsal file çözümleri" data-en="Quality agricultural net solutions">Kaliteli tarımsal file çözümleri</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-tr="Hızlı Erişim" data-en="Quick Links">Hızlı Erişim</h3>
+                <ul>
+                    <li><a href="#anasayfa" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a></li>
+                    <li><a href="#urunler" data-tr="Ürünlerimiz" data-en="Our Products">Ürünlerimiz</a></li>
+                    <li><a href="#hakkimizda" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</a></li>
+                    <li><a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-tr="© 2024 Kartepe File. Tüm hakları saklıdır." data-en="© 2024 FileBasket. All rights reserved.">© 2024 Kartepe File. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
